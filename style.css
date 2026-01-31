@@ -1,0 +1,70 @@
+/* Body and general */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #faf670;
+}
+
+/* Header */
+.main-header {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Sections */
+.section {
+  padding: 20px;
+  background-color: #f77d7d;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+/* Section titles */
+.section-title {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Contact form */
+.contact-form input, .contact-form textarea {
+  width: 90%;
+  max-width: 400px;
+  padding: 10px;
+  margin: 5px 0 15px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+/* Submit button */
+.contact-form input[type="submit"] {
+  width: 150px;
+  background-color: #1e90ff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.contact-form input[type="submit"]:hover {
+  background-color: #0b70d4;
+}
+
+/* Contact info */
+.contact-info {
+  margin: 5px 0;
+  color: #555;
+  text-align: center;
+}
+
+/* Footer */
+.main-footer {
+  text-align: center;
+  margin: 20px 0;
+}
